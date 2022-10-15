@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Inportar fonte Google VT323-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <title>Portfólio - Girlei Both</title>
+
+    <!--Relação do html com o css-->
+    <link rel="stylesheet" href="/src/css/reset.css">
+    <link rel="stylesheet" href="/src/css/estilos.css">
+    <link rel="stylesheet" href="/src/css/rolagem.css">
+
+</head>
+
+<body>
+
+    <!--Espaço do cartão-->
+    <main class="cartao">
+        
+        <!--Cabeçalho-->
+        <div class="minhas-informacoes">
+            <img src="./src/imagens/perfil-girlei.jpg" alt="foto de perfil.">
+            <h1 class="nome">Girlei Both de Matos</h1>
+            <h2 class="cargo">Desenvolvedor de Sistemas | Júnior</h2>
+        </div>
+        
+        <div class="conteudo">
+            
+            <!--Menu-->
+            <ul class="abas">
+
+                <li class="aba selecionada" id="id-perfil">
+                    <img src="./src/imagens/icon-perfil.png" alt="ícone do perfil.">
+                </li>
+                <li class="aba" id="id-sobre">
+                    <img src="./src/imagens/icon-sobre.png" alt="ícone das informações gerais.">
+                </li>
+                <li class="aba" id="id-projetos">
+                    <img src="./src/imagens/icon-projetos.png" alt="ícone dos projetos.">
+                </li>
+                <li class="aba" id="id-redes">
+                    <img src="./src/imagens/icon-links.png" alt="ícone dos links.">
+                </li>
+            </ul>
+
+            <!--Informações dos menus-->
+            <div class="informacoes-abas">
+
+                <!--Informações do menu PERFIL-->
+                <div class="informacao selecionada" id="perfil-id">
+
+                    <h3 class="sub-titulo">PERFIL</h3>
+
+                    <div clas="descricao">
+                        <p>Olá! Meu nome é Girlei, seja <span>bem-vindo(a)!</span></p>
+                        <br>
+                        <p>
+                            Possuo experiência na área Administrativa/Financeira e almejo aliar esses conhecimentos com a área de programação e desenvolvimento de softwares (TI), <span>aprimorando skills em programação</span> e visando o crescimento profissional.
+                        </p>
+                        <br>
+                        <p>                    
+                            Busco o acréscimo de qualidade na execução de tarefas a fim de atingir os objetivos preestabelecidos, realizando-os com organização e planejamento.
+                        </p>
+                        <br>
+                        <p>
+                            Tenho como objetivos o desenvolvimento do conhecimento pessoal e profissional, bem como, o aprimoramento de habilidades com a prática em novas experiências.
+                        </p>
+                    </div>
+
+                    <!--Informações do menu SOBRE-->
+                    <div class="informacao" id="sobre-id">
+                        <h3 class="sub-titulo">SOBRE</h3>
+
+                        <h4>Tecnologia</h4>
+                        <br>
+                            <h5>Formação</h5>
+                                <p><span>SENAC/RS:</span> Técnico em Desenvolvimento de Sistemas (de março de 2022 até janeiro de 2024)</p>
+                                <br>
+                            <h5>Cursos e Certificados</h5>
+                                <p><span>T.EXpert:</span> Intensivo de Carreira Tech</p>
+                                <p><span>Dev em Dobro:</span> MapaDev Week</p>
+                                <p><span>UDEMY:</span> Engenharia de Software; Visual Studio 2019 Avançado; Programador Back End - Visual Studio 2019; Curso de Visual Studio 2019 - Desenvolvimento Front End;</p>
+                                <p><span>IFRS:</span> Automação de Sistemas</p>
+                                <br>
+                            <h5>Habilidades</h5>
+                                <p><span>Linguagens:</span> Visual Basic, VBA Excel, C#, HTML e CSS ...</p>
+                                <p><span>Banco de dados:</span> MySQL e MongoDB</p>
+                                <p><span>Ferramentas:</span> Canva, Trello, Github, Wordpress, Sketchup, Mailchimp</p>
+
+
+
+                    </div>
+
+                    <!--Informações do menu PROJETOS-->
+                    <div class="informacao" id="projetos-id">
+                        <h3 class="sub-titulo">PROJETOS</h3>
+
+                        <ul class="projetos">
+                            <li><span>Sistema AAMARGS</span> (Software de gestão de associação) ... em desenvolvimento</li>
+                            <br>
+                            <li><span>App MyCar</span> (Aplicativo de cuidado com a “saúde” do carro) ... em desenvolvimento</li>
+                        </ul>
+
+                    </div>
+
+                    <!--Informações do menu LINKS-->
+                    <div class="informacao" id="redes-id">
+                        <h3 class="sub-titulo">LINKS</h3>
+
+                        <ul class="redes-sociais">
+                            <li>
+                                <a href="https://drive.google.com/file/d/1yIs2ofc-kh8wlCfMk-rGthf92x70xzHn/view?usp=sharing" target="_blank" class="curriculo">Currículo</a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/girleiboth/" target="_blank" class="linkedin">LinkedIn</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/Girlei-Both" target="_blank" class="github">GitHub</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+            
+        </div>
+
+    </main>
+
+    <script src="./src/js/index.js"></script>
+    
+</body>
+
+</html>
