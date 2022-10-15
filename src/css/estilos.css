@@ -24,45 +24,45 @@ body{
 .cartao{
     background-color: #070d12;
     width: 500px;
-    border: 20px ridge #a5004d;
+    border: 15px ridge #a5004d;
     border-radius: 10px;
     overflow: hidden;
 }
 
 /*Foto do perfil*/
 .cartao img{
-    width: 90px;
+    width: 80px;
 }
 
 /*Borda da foto*/
 .cartao .minhas-informacoes img{
-    border-radius: 15px;
+    border-radius: 10px;
     border: 5px solid #15b1b1;
 }
 
 /*Estrutura do texto do cabeçalho*/
 .cartao .minhas-informacoes{
-    padding-top: 30px;
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
 }
 
 /*Tamanho do texto do nome*/
 .cartao .minhas-informacoes .nome{
-    font-size: 26px;
+    font-size: 20px;
 }
 
 /*Tamanho e cor do cargo*/
 .cartao .minhas-informacoes .cargo{
-    font-size: 20px;
+    font-size: 18px;
     color: #15b1b1;
 }
 
 /*Margem acima das abas*/
 .cartao .conteudo{
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 /*Disposição das abas*/
@@ -75,14 +75,14 @@ body{
     width: 50%;
     display: flex;
     justify-content: center;
-    padding: 10px 0;
+    padding: 5px 0;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
 }
 
 /*Tamanho dos icones*/
 .cartao .abas img{
-    width: 50px;
+    width: 35px;
 }
 
 /*Cor da aba selecionada*/
