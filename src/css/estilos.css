@@ -170,3 +170,10 @@ body{
     opacity: 0.6;
 }
 
+/*Espaço para acesso ao código*/
+.codigo{
+    text-align: center;
+}
+.codigo img{
+    width: 60px;
+}
